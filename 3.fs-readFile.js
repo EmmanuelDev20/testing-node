@@ -10,11 +10,10 @@ fs.readFile('archivo.txt', 'utf-8', (err, data) => {
   console.log(data)
 })
 
-
 console.log('Leyendo el segundo archivo...')
 
 fs.readFile('archivo.txt', 'utf-8', (err, data) => {
-  if(err) {
+  if (err) {
     console.error(err)
     return
   }

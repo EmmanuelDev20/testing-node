@@ -17,7 +17,6 @@ fs.readFile('archivo.txt', 'utf-8')
     console.log('Primer archivo leído:', data)
   })
 
-
 console.log('Leyendo el segundo archivo...')
 
 fs.readFile('archivo2.txt', 'utf-8')
